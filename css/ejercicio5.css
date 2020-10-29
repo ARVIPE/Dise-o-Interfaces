@@ -1,0 +1,43 @@
+header{
+    background-color: coral;
+    text-align: center;
+
+    width: 200px;
+}
+
+.menu{
+
+    background-color: cornflowerblue;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.fila{
+
+  
+    text-align: center;
+
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.col{
+
+    flex: 10%;
+    background-color: aqua;
+    padding: 20px;
+    flex-direction: column;
+    display: flexbox;
+
+
+}
+
+footer{
+
+    background-color: rgb(247, 18, 10);
+    text-align: center;
+    padding: 20px;
+}
