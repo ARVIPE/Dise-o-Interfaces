@@ -1,43 +1,105 @@
-header{
-    background-color: coral;
-    text-align: center;
+body{
 
-    width: 200px;
+    width: 800px;
+    border: solid black 1px;
+}
+.cabecera{
+
+    display: flex;
+    justify-content: center;
+    background-color: red;
+    width: 100%;
+    height: 60px;
 }
 
 .menu{
 
-    background-color: cornflowerblue;
-    text-align: center;
-    padding: 20px;
-
-}
-
-.fila{
-
-  
-    text-align: center;
-
     display: flex;
-    flex-direction: row;
-
-
-}
-
-.col{
-
-    flex: 10%;
-    background-color: aqua;
-    padding: 20px;
-    flex-direction: column;
-    display: flexbox;
-
+    justify-content: center;
+    background-color: blue;
+    width: 100%;
+    height: 60px;
 
 }
 
-footer{
 
-    background-color: rgb(247, 18, 10);
+.contenedorImagen{
+    width: 100%;
+    height: auto;
+}
+
+
+.contenedor2{
+    width: 50%;
+    height: 50px;
     text-align: center;
-    padding: 20px;
+    
+   
+    
+
+
+}
+.column {
+    width: 50%;
+    
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Create two equal columns that floats next to each other */
+  .column {
+    float: left;
+    height: 300px; /* Should be removed. Only for demonstration */
+    
+  }
+
+  .border{
+    border: solid black 1px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    margin: 17.5%;
+    margin-bottom: 0;
+  
+    
+    
+    
+  }
+  @media (max-width: 768px) {
+    .contenedorImagen{
+        display: none;
+        
+    }
+  
+    .contenedor2{
+    width: 200%;
+    height: 25px;
+    text-align: center;
+    
+   
+    
+
+
+}
+
+    
+  }
+
+    img{
+        width: 100%;
+        height: 100%;
+    }
+  
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: yellow;
+    width: 100%;
+    height: 60px;
 }
