@@ -12,12 +12,15 @@
 
 <style>
   
-  @media (min-width: 768px) {
-      .collapse{
+  @media (min-width: 992px) {
+      button{
         display: none;
       }
-      .navbar-toogler-icon{
-        display: none;
+      .collapse{
+        display: block;
+      }
+      .navbar-collapse-md{
+        display: block;
       }
   }
   
@@ -32,9 +35,7 @@
       <div class="navbar-header">
         <img src="../curriculum/logoFinal.png" width="20%">
       </div>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"></button>
       <div class="collapse navbar-collapse-md" id="collapsibleNavbar">
         <ul class="nav navbar-nav">
           <li><a href="#">Page 1</a></li>
