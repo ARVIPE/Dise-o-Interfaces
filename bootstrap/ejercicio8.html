@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<style>
+  
+  @media (min-width: 768px) {
+      .collapse{
+        display: none;
+      }
+      .navbar-toogler-icon{
+        display: none;
+      }
+  }
+  
+</style>
+
+
+
+<body>
+
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <img src="../curriculum/logoFinal.png" width="20%">
+      </div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse-md" id="collapsibleNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#">Page 1</a></li>
+          <li><a href="#">Page 2</a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 3
+              <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Page 3-1</a></li>
+              <li><a href="#">Page 3-2</a></li>
+              <li><a href="#">Page 3-3</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="navbar-form navbar-left " action="/action_page.php">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search" name="search">
+          </div>
+          <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+        </div>
+    </div>
+  </nav>
+
+</body>
+
+</html>
