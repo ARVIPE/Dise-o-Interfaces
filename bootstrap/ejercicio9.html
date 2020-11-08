@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+  <div class="container">
+    <br/>
+    <div class="row" id="panelPrecios">
+      <div class="items">
+        <ul>
+          <li>
+        <a data-toggle="tooltip" title="<img src='https://getbootstrap.com/apple-touch-icon.png' /> <p>10-06-2001</p>">
+          Arturo Vicente
+        </a></li>
+          <li>
+        <a data-toggle="tooltip" title="<img src='https://getbootstrap.com/apple-touch-icon.png' /> <p>8-07-1995</p>">
+         Manuel Eslava
+        </a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+<script>
+$('#panelPrecios [data-toggle="tooltip"]').tooltip({
+    animated: 'fade',
+    placement: 'bottom',
+    html: true
+});
+</script>
+
+</body>
+</html>
